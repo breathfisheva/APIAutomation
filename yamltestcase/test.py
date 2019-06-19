@@ -1,6 +1,6 @@
 from yamltestcase.send_request import *
 from yamltestcase.loader import load_yaml_file
-import unittest
+import unittest, xmlrunner
 
 class TestApiServer(unittest.TestCase):
 
@@ -21,4 +21,7 @@ class TestApiServer(unittest.TestCase):
         run_single_testcase(testcases[0]['test'])
 
 if __name__ == '__main__':
-    unittest.main()
+    test_suite = unittest.TestSuite()
+    test_suite.addTest(unittest.makeSuite(TestApiServer))
+    runner = xmlrunner.XMLTestRunner(output='report')  # 指定报告放的目录
+    runner.run(test_suite)

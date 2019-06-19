@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestApiServer-20190619140605" tests="1" time="0.007">
+	<testcase classname="TestApiServer" name="test_create_user_not_existed" time="0.007"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[C:\Users\Lucy\Documents\code\APIAutomation\yamltestcase\loader.py:24: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  yaml_content = yaml.load(stream)
+]]>	</system-err>
+</testsuite>
