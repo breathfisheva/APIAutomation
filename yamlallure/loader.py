@@ -1,12 +1,12 @@
 import re, io, yaml
+import importlib
 
-#定义了yaml文件里使用到的变量值和函数方法
-def gen_uid(index, b=6):
-    return index+b
 
-vara = 3
-varb = 6
-
+#动态导入库，所有yaml文件会用到的函数和变量都放到utils.py文件里，之后在yaml_load里，return函数方法和变量值的时候记得加上"module."
+def load_all_variables_functions():
+    module =importlib.import_module('utils')
+    return module
+module = load_all_variables_functions()
 
 #yaml_load 方法把yaml文件里的函数调用返回结果，参数返回结果，变成最后的测试用例，实现了参数和测试用例的隔离
 def yaml_load(yaml_file):
@@ -66,11 +66,13 @@ def yaml_load(yaml_file):
                     fun = m.group(1)
                     args = m.group(2).split(',')
 
-                    func_str += fun + "("
+                    func_str += "module."+ fun + "("
 
                     for index, arg in enumerate(args):
                         if is_variable(arg.strip()):
-                            args[index] = str(eval(pattern_variable.match(arg.strip()).group(1)))
+                            variable_name = "module." + pattern_variable.match(arg.strip()).group(1)
+                            # args[index] = str(eval(pattern_variable.match(arg.strip()).group(1)))
+                            args[index] = str(eval(variable_name))
                         else:
                             args[index] = arg
                         func_str += args[index] + ","
@@ -83,7 +85,8 @@ def yaml_load(yaml_file):
             elif is_variable(data):
                 m = pattern_variable.match(data)
                 if m:
-                    return eval(m.group(1))
+                    variable_name = "module." + m.group(1)
+                    return eval(variable_name)
             else:
                 return data
 
