@@ -8,7 +8,7 @@ def load_all_variables_functions():
     return module
 module = load_all_variables_functions()
 
-#yaml_load 方法把yaml文件里的函数调用返回结果，参数返回结果，变成最后的测试用例，实现了参数和测试用例的隔离
+#yaml_load 方法把yaml文件里的函数调用返回结果，参数返回结果，变成最后的测试用例，实现了参数和测试用例的隔离.之后的send request就从这里获取数据
 def yaml_load(yaml_file):
     """
     异步读取yaml文件，并转义其中的特殊值
