@@ -1,0 +1,14 @@
+args:
+  - post
+  - ${gen_uid(10, b=2)}
+kwargs:
+  -
+    caseName: $vara
+    data:
+      name: ${gen_uid($vara, $varb)}
+validator:
+  -
+    json:
+      successed: True
+
+

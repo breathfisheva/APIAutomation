@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f0f6979-a105-4b86-b86e-74154c37591c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/foo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yamlfunction/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yamlallure/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yamlallure/data.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yamlallure/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/APIAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/APIAutomation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,12 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="135" column="31" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="31" />
+            <state relative-caret-position="544">
+              <caret line="80" selection-start-line="80" selection-end-line="82" selection-end-column="37" />
               <folding>
                 <element signature="e#648#657#0" expanded="true" />
               </folding>
@@ -29,8 +30,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/yamltestcase/send_request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yamlallure/data.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yamlallure/loader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/yaml/scanner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="318" selection-start-line="318" selection-end-line="318" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -60,6 +92,8 @@
         <option value="$PROJECT_DIR$/foo.py" />
         <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/yamlallure/data.yml" />
+        <option value="$PROJECT_DIR$/yamlallure/loader.py" />
       </list>
     </option>
   </component>
@@ -84,7 +118,7 @@
             <path>
               <item name="APIAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="APIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="yamlfunction" type="462c0819:PsiDirectoryNode" />
+              <item name="yamlallure" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -99,6 +133,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code\APIAutomation\yamlallure" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lucy\Documents\code\APIAutomation\yaml-testcase" />
     </key>
@@ -115,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test (2)">
+  <component name="RunManager" selected="Python.loader">
     <configuration name="load_yaml_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="APIAutomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,6 +166,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/load_yaml_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="loader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="APIAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yamlallure" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yamlallure/loader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,27 +258,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_apiserver.TestApiServer.test_create_user_not_existed" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_apiserver.TestApiServer.test_create_user_not_existed&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.loader" />
         <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.load_yaml_file" />
-        <item itemvalue="Python tests.Unittests for test_apiserver.TestApiServer.test_create_user_not_existed" />
       </list>
     </recent_temporary>
   </component>
@@ -243,23 +287,23 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1273" y="-7" width="2575" height="1455" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11172962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32956153" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.33521923" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3536068" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46676096" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35298565" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20786092" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33521923" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -288,58 +332,68 @@
           <line>134</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/yamlallure/loader.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="data[&quot;kwargs&quot;][0][&quot;caseName&quot;]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>isinstance(item, types.FunctionType)</expression-string>
+        <expression-string>data[&quot;kwargs&quot;][0][&quot;caseName&quot;]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>item</expression-string>
+        <expression-string>data[&quot;kwargs&quot;][&quot;caseName&quot;]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>vars(imported)</expression-string>
+        <expression-string>data[&quot;kwargs&quot;]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>imported</expression-string>
+        <expression-string>data[&quot;args&quot;]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>module.fun1()\</expression-string>
+        <expression-string>eval(func_str)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>vars(module).items()</expression-string>
+        <expression-string>func_str[:-1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>vars(module)</expression-string>
+        <expression-string>eval(fun +&quot;(&quot; +str(args[0]) + &quot;,&quot; + str(args[1]) + &quot;)&quot;)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>module.fun2()</expression-string>
+        <expression-string>fun +&quot;(&quot; +str(args[0]) + &quot;,&quot; + str(args[1]) + &quot;)&quot;</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>module.fun1()</expression-string>
+        <expression-string>fun +&quot;(&quot; +args[0] + &quot;,&quot; + args[1] + &quot;)&quot;</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>module.hello()</expression-string>
+        <expression-string>pattern_variable.match(arg.strip()).group(1)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -355,44 +409,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/load_yaml_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yaml-testcase/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/apitest/venv/Lib/site-packages/requests/adapters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="515" selection-start-line="515" selection-end-line="515" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yaml-testcase/data.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yaml-testcase/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/load_yaml_file.py" />
+    <entry file="file://$PROJECT_DIR$/yaml-testcase/loader.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/apitest/venv/Lib/site-packages/requests/adapters.py" />
+    <entry file="file://$PROJECT_DIR$/yaml-testcase/data.yml" />
+    <entry file="file://$PROJECT_DIR$/yaml-testcase/test.py" />
     <entry file="file://$PROJECT_DIR$/tests/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -403,24 +424,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yamltestcase/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yamltestcase/report/TEST-TestApiServer-20190619140605.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yamltestcase/send_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yamltestcase/data.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -436,23 +441,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moduleA/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moduleA/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="323" selection-start-line="323" selection-end-line="323" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/moduleA/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/moduleA/hello.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/foo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -490,13 +481,51 @@
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/yamltestcase/send_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/yaml/scanner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="318" selection-start-line="318" selection-end-line="318" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamltestcase/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="135" column="31" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="31" />
+        <state relative-caret-position="544">
+          <caret line="80" selection-start-line="80" selection-end-line="82" selection-end-column="37" />
           <folding>
             <element signature="e#648#657#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamlallure/data.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamlallure/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
