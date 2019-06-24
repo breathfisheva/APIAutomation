@@ -14,7 +14,6 @@ class TestApiServer(ApiServerUnittest):
     def tearDown(self):
         super(TestApiServer, self).tearDown()
 
-
     def create_user(self, uid, name, password):
         url = "%s/api/users/%d" %(self.host, uid)
         data = {

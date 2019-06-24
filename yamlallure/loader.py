@@ -93,4 +93,4 @@ def yaml_load(yaml_file):
     my_iter(data)
     return data
 
-print(yaml_load("data.yml"))
+# print(yaml_load("data.yml"))

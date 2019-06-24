@@ -4,3 +4,6 @@ def gen_uid(index, b=6):
 
 vara = 3
 varb = 6
+
+username = "stest61031"
+password = "1"

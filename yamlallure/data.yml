@@ -1,14 +1,18 @@
-args:
-  - post
-  - ${gen_uid(10, b=2)}
-kwargs:
-  -
-    caseName: $vara
-    data:
-      name: ${gen_uid($vara, $varb)}
-validator:
-  -
-    json:
-      successed: True
+- test:
+    casename: create user which does not exist
+    request:
+        url: http://127.0.0.1:7890/api/users/1000
+        method: POST
+        headers:
+            Content-Type: application/json
+        json:
+            name: $username
+            password: $password
 
-
+    response:
+        status_code: 201
+        headers:
+            Content-Type: application/json
+        body:
+            success: True
+            msg: user created successfully.

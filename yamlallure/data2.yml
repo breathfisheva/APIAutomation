@@ -1,0 +1,33 @@
+- test:
+    casename: login
+    request:
+        url: https://smartuat2.englishtown.com/login/secure.ashx
+        method: POST
+        headers:
+            Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+        json:
+            name: $username
+            password: $password
+
+    response:
+        status_code: 200
+        headers:
+            Content-Type: application/json; charset=utf-8
+        body:
+            success: true
+            redirect: https://smartuat2.englishtown.com/school/course/currentcourse/handler.aspx?entry=true
+
+- test:
+    casename: bookclass
+    request:
+        url: https://smartuat2.englishtown.com/school/mini?icid=School.BookClass.2012
+        method: GET
+        headers:
+            Connection: keep-alive
+
+
+    response:
+        status_code: 200
+        headers:
+            Connection: Keep-Alive
+
